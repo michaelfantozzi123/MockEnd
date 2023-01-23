@@ -12,8 +12,6 @@
   },
   "Comment":
   {
-    "product": {
-      "belongsTo": "Product"
-    }
+    "product": {"belongsTo": "Product"}
   }
 }
