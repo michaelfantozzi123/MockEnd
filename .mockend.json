@@ -1,9 +1,9 @@
 {
-  "User": {
-    "name": {
+  "Product": {
+    "code": {
       "string": {}
     },
-    "avatarUrl": {
+    "productImage": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
     "statusMessage": {
