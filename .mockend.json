@@ -1,60 +1,206 @@
 {
-  "Mike": {
-    "name": {
+  "Product": [
+    {
+      
+          "name": {
       "string": {}
     },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-    },
-    "statusMessage": {
-      "string": [
-        "Working from home",
-        "Watching Netflix"
-      ]
-    },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
-    "age": {
-      "int": {
-        "min": 21,
-        "max": 100
+      
+      
+      
+      "code": {
+        "string": {}
+      },
+      "manufact": {
+        "string": {}
+      },
+      "description": {
+        "string": {}
+      },
+      "short":  {
+        "string": {}
+      },
+      "status":  {
+        "string": {}
+      },
+      "tilldesc":  {
+        "string": {}
+      },
+      "shortdesc":  {
+        "string": {}
+      },
+      "manusort":  {
+        "string": {}
+      },
+      "prodtype":  {
+        "string": {}
+      },
+      "balance":  {
+        "string": {}
+      },
+      "prices": {
+          "contract":  {
+        "string": {}
+      },
+          "retail":  {
+        "string": {}
+      },
+          "discount":  {
+        "string": {}
+      },
+          "pricesasatdate":  {
+        "string": {}
+      },
+          "currency": {
+        "string": {}
+      },
+          "net": {
+              "price": [
+                  {
+                      "id": {
+        "string": {}
+      },
+                      "value": {
+        "string": {}
+      },
+                  },
+                  {
+                      "id": {
+        "string": {}
+      },
+                      "value": {
+        "string": {}
+      },
+                  },
+                  {
+                      "id": {
+        "string": {}
+      },
+                      "value": {
+        "string": {}
+      },
+                  },
+                  {
+                      "id": {
+        "string": {}
+      },
+                      "value": {
+        "string": {}
+      },
+                  },
+                  {
+                      "id": {
+        "string": {}
+      },
+                      "value": {
+        "string": {}
+      },
+                  },
+                  {
+                      "id": {
+        "string": {}
+      },
+                      "value": {
+        "string": {}
+      },
+                  }
+              ]
+          },
+          "tax": {
+              "taxgroup": {
+        "string": {}
+      },
+              "taxcode": {
+        "string": {}
+      },
+              "taxrate": {
+        "string": {}
+      },
+              "taxamount": {
+        "string": {}
+      },
+          }
+      },
+      "units": {
+          "stockunit": {
+              "code":  {
+        "string": {}
+      },
+              "desc":  {
+        "string": {}
+      },
+          },
+          "sellingunit": {
+              "code":  {
+        "string": {}
+      },
+              "desc":  {
+        "string": {}
+      },
+          },
+          "pricingunit": {
+              "code":  {
+        "string": {}
+      },
+              "desc":  {
+        "string": {}
+      },
+          },
+          "unitofsale": [
+              {
+                  "code":  {
+        "string": {}
+      },
+                  "desc":  {
+        "string": {}
+      },
+              }
+          ],
+          "unitofprice": [
+              {
+                  "code":  {
+        "string": {}
+      },
+                  "desc":  {
+        "string": {}
+      },
+              },
+              {
+                  "code":  {
+        "string": {}
+      },
+                  "desc":  {
+        "string": {}
+      },
+              },
+              {
+                  "code":  {
+        "string": {}
+      },
+                  "desc":  {
+        "string": {}
+      },
+              }
+          ]
+      },
+      "stock": {
+          "branch": {
+        "string": {}
+      },
+          "branchonorder": {
+        "string": {}
+      },
+          "distribution":  {
+        "string": {}
+      },
+          "distributiononorder":  {
+        "string": {}
+      },
+      },
+      "attributes": {
+          "attribute": []
       }
-    },
-    "isPublic": {
-      "boolean": {}
-    }
-  },
-    "GetProduct": {
-    "name": {
-      "string": {}
-    },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-    },
-    "statusMessage": {
-      "string": [
-        "Working from home",
-        "Watching Netflix"
-      ]
-    },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
-    "age": {
-      "int": {
-        "min": 21,
-        "max": 100
-      }
-    },
-    "isPublic": {
-      "boolean": {}
-    }
   }
-}
+    
+    
+    }
