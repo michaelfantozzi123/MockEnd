@@ -27,8 +27,7 @@
     "isPublic": {
       "boolean": {}
     }
-  }
-  
+  },
     "GetProduct": {
     "name": {
       "string": {}
